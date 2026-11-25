@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Manrope;
+  src: url("fonts/Manrope-Variable.ttf") format("truetype");
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+body {
+  --sans: Manrope, -apple-system, system-ui, sans-serif;
+  --serif: var(--sans);
+  font-size: 1.0625rem;
+  line-height: 1.5;
+}
+main.wrap { max-width: 68ch; }
+h1, h2 { font-weight: 750; letter-spacing: normal; }
+h1 { font-size: 1.75rem; line-height: 1.15; }
+h2 { font-size: 1.125rem; line-height: 1.2; margin: 1.5rem 0 0.375rem; }
+.brand { font-size: 1.0625rem; }
+.langs, .updated { font-size: 0.9375rem; }
